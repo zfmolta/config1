@@ -40,7 +40,7 @@ eureka:
 
 info:
   app.name: ygtest-erp-system
-  company.name: www.yg1999.com
+  company.name: www.123.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
@@ -82,7 +82,7 @@ eureka:
 
 info:
   app.name: ygtest-erp-system
-  company.name: www.yg1999.com
+  company.name: www.123.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
