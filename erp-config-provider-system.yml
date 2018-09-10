@@ -32,7 +32,7 @@ mybatis:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://eureka7081.com:7081/eureka
+      defaultZone: http://${erp.id.${erp_env}}:7081/eureka
 
   instance:
     instance-id: erp-provider-8001
@@ -75,7 +75,7 @@ eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
       #defaultZone: http://eureka7081.com:7081/eureka
-      defaultZone: http://192.168.0.210:7082/eureka
+      defaultZone: http://${erp.id.${erp_env}}:7082/eureka
   instance:
     instance-id: erp-provider-8002
     prefer-ip-address: true     #访问路径可以显示IP地址
